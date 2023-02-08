@@ -10,5 +10,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: CI action step for stm32
       id: stm32ci
-      uses: PeterRounce/stm32-action@v0.5
+      uses: PeterRounce/stm32-action@v0.1
 
