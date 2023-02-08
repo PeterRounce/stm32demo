@@ -1,4 +1,4 @@
-An example project for demonstrating CI with STM32 uCs.
+An example project for demonstrating CI with STM32 uCs. 
 
 For each PR, the following is checked:
 * STM32CubeIDE project must compile
