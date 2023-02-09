@@ -7,7 +7,7 @@ set -x
 ./format/check.sh
 format_ret=$?
 
-ls /opt/st
+ls -l /opt/st
 
 # Run build
 /opt/st/stm32cubeide_1.11.2/stm32cubeide --launcher.suppressErrors -nosplash -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data . -importAll . -build all -no-indexer
